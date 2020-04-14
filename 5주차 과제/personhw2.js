@@ -4,5 +4,5 @@ let persons = [
     { name: "전우치", age: 19 }
 ];
 
-let max = persons.reduce((a,b)=>a>b?a:b);
+let max = persons.reduce((a,b)=>a.age>b.age?a:b);
 console.log(max);
